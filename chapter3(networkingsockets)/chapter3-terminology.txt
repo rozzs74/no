@@ -1,0 +1,21 @@
+1.) Networking sockets - is an internal endpoint for sending or receiving data at single node in a 
+computer network.
+
+2.) Socket - is one endpoint of a two-way communication link between two programs running
+on the network. A socket is bound to a port number so that the TCP layer can identify 
+the application that data is destined to be sent to.
+
+3.) TCP (Transmission control protocol) - is a connection-oriented transport protocl that sends data as an unstructured stream of bytes.
+By using sequence numbers and acknowledgement messages. TCP can provide a sending node with delivery information about packets transmitted
+to a destination node. Where data has been lost in transit from source to destination, TCP can retransmit the data until either
+timeout condition is reached or unitl successful delivery has been achievedl. TCP an end-to-end reliable transport.
+
+4.) Telnet - is a protocol used on the Internet or local area networks to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection.
+
+5.) Nc(Netcat) - (often abbreviated to nc) is a computer networking utility for reading from and writing to network connections using TCP or UDP. 
+
+6.) Unix sockets - or IPC socket (inter-process communication socket) is a data communications endpoint for exchanging data between processes executing on the same host operating system. 
+
+7.) TCP/UDP - (transmission control protocol) and (user data gram protocol)  https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/
+
+8.)

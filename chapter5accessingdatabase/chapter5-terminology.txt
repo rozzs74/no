@@ -1,0 +1,27 @@
+1.) REST  - stands for Representational state transfer. It is also a set of principles built on top of HTTP.
+with REST each URL path points to specifict resource. In other words URLs are things.
+2.) Couch DB - No SQL database it uses REST for everything.
+Advatanges of using couch db:
+	a.) Couch DB speaks JS
+	
+Couch DB installation
+	a.) If in macos x install it via homebrew `brew install couchdb`
+	b.) couchdb
+All about couchdb
+	a.) A database in CouchDB is basically a big collection of documents. Each database lives at 
+	URL path one level down from the root. For example if you had a database called books it would live to
+	/books.
+
+3.) document - A document is a JSON object with a couple of special attributes.
+
+4.) JS library for parsing XML --> cheerio
+
+5.) view - is a kind of index that maps values back to documents.
+6.) CouchDB design documents - stores views in special documents.
+Couch DB views consist of Javascript code.
+
+7.) Cross-environment scripting - a script that run and might destined for a different environment by executing it in another.
+Example is creating functions in Node that we intend to run in CouchDB
+
+8.) Using design document you can create custom script that process the data it will be injected into _view in couch db and return that is 
+base on the script.

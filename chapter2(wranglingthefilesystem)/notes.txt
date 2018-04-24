@@ -1,0 +1,7 @@
+Node.js event loop cycle steps
+
+1.) Load the program then
+2.) While theres more to do
+3.) Wait for something to happen
+4.) Execute the callbacks
+5.) Exit process unless there's more to do --> Back to step 1 

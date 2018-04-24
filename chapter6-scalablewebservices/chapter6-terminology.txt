@@ -1,0 +1,10 @@
+1.) Express - is a web application framework for Node modeled after Ruby project Sinatra.
+2.) Middleware - Is asynchronous functions that manipulate the request and response objects.
+If you want to enable the Middleware in express you must call "app.use()", passing the 
+middleware you want.
+3.) curl - is a useful command-line tool for issuing HTTP requests to a given server. 
+	-i flag - telling curl to output the HTTP headers in addition to he JSON body.
+	-x flag - tells curl to specify which HTTP method to use to the link.
+4.) promise - is an object that encapsulates these two results for an asynchronous operation. Once
+the operation completed resolved or reject
+5.) Generators - A generator is like a function except that you can suspend its execution and resume later.
